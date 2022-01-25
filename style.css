@@ -1,0 +1,110 @@
+.heading{
+    text-align: center;
+    margin-top: 5%;
+    font-family: cursive;
+}
+
+.description{
+    margin-top: 5%;
+}
+
+.images{
+    display:grid;
+    grid-row-gap:15px;
+    grid-column-gap:15px;
+    width: 100%;
+    height:10%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.img1{
+width: 100%;
+height: 100%;
+}
+.img2{
+    width:100%;
+    height: 100%;
+    grid-row: span 2;
+}
+.img3{
+    width: 100%;
+    height: 100%;
+    grid-column: span 1;
+}
+.img4{
+    width: 100%;
+    height: 100%;
+}
+.img5{
+    width: 100%;
+    height: 100%;
+}
+.description2{
+    margin-top: 5%;
+}
+.products{
+    font-family: cursive;
+}
+.product-types{
+    display:grid;
+    grid-row-gap:15px;
+    grid-column-gap:15px;
+    width: 100%;
+    height:10%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width:100%;
+    height:100%;
+    text-align: center;
+}
+.blush{
+    width:100%;
+    height:100%;
+}
+.bronzer{
+    width:100%;
+    height:100%;
+}
+.eyebrow{
+    width:100%;
+    height:100%;
+}
+.eyeliner{
+    width:100%;
+    height:100%;
+}
+.eyeshadow{
+    width:100%;
+    height:100%;
+}
+.foundation{
+    width:100%;
+    height:100%;
+}
+.lipliner{
+    width:100%;
+    height:100%;
+}
+.lipstick{
+    width:100%;
+    height:100%;
+}
+.mascara{
+    width:100%;
+    height:100%;
+    
+}
+.nailpolish{
+    width:100%;
+    height:100%;
+}
+.brand{
+    font-family: cursive;
+    margin-top: 5%;
+}
+.table{
+    width: 100%;
+}
+.brand-types{
+    color: burlywood;
+}
